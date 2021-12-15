@@ -34,7 +34,7 @@
 </style>
 <h1> Персональна сторінка</h1>
 </center>
-<img style="width:100px; height: :150px;position:absolute;"src="12.png"  />
+<img style="width:150px; height: :250px;position:absolute;"src="12.png"  />
 <div>
   <center>
     <h2> <em> Козар Владимир Вадимович </em> <h2>
@@ -49,41 +49,34 @@
     </div>
     <hr />
     <h2 style= "background-color: PaleGreen;" >Skills:</h2>
-    <table>
-        <tr>
-            <td>English:</td>
-            <td>⭐️⭐️⭐️⭐️</td>
-            <td>Photoshop:</td>
-            <td>⭐️⭐️</td>
-        </tr>
-        <tr>
-            <td>Dancing:</td>
-            <td>⭐️⭐️⭐️⭐️</td>
-            <td>Boxing:</td>
-            <td>⭐️⭐️⭐️⭐️</td>
-        </tr>
-            <td>Python:</td>
-            <td>⭐️⭐️</td>
-            <td>Painting:</td>
-            <td>⭐️⭐️</td>
-        </tr>
-        <tr>
-            <td>C++</td>
-            <td>⭐️⭐️</td>
-            <td>Music</td>
-            <td>⭐️⭐️⭐️</td>
-        </tr>
-        <tr>
-            <td>Play on guitar:</td>
-            <td>⭐️⭐️⭐️⭐️</td>
-            <td>Singing</td>
-            <td>⭐️⭐️⭐️</td>
-        </tr>
-    </table>
+<table>
+    <tr>
+        <td>English:</td>
+        <td>⭐️⭐️⭐️⭐️</td>
+        <td>Photoshop:</td>
+        <td>⭐️⭐️</td>
+    <tr>
+        <td>Python:</td>
+        <td>⭐️⭐️</td>
+        <td>Painting:</td>
+        <td>⭐️⭐️</td>
+    </tr>
+    <tr>
+        <td>C++</td>
+        <td>⭐️⭐️</td>
+        <td>Music</td>
+        <td>⭐️⭐️⭐️</td>
+    </tr>
+    <tr>
+        <td>Play on guitar:</td>
+        <td>⭐️⭐️⭐️⭐️</td>
+        <td></td>
+    </tr>
+</table>
 <hr />
 <p>
-  <li><a href="Влад2.html"><b>Хоббі</b></a>
-  <li><a href="Влад3.html"><b>Контакти</b></a>
+  <li><a href="2.html"><b>Хоббі</b></a>
+  <li><a href="3.html"><b>Контакти</b></a>
   </p>
   </body>
 </html>

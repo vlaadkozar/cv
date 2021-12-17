@@ -1,54 +1,77 @@
 <!DOCTYPE html>
-<html lang="en" dir=ltr">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title> Vladymyr Personal Site </title>
+    <style>
+      #content {
+        display: flex;
+      }
+      #info {
+        margin-left: 30px;
+      }
+      #section {
+        display: flex;
+        flex-direction: column;
+      }
+      #imgs {
+        display: flex;
+        justify-content: space-around;
+      }
+      .img {
+        display: flex;
+        flex-direction: column;
+      }
+      #text {
+        text-align: center;
+      }
+      #footer {
+        display: flex;
+        justify-content: space-around;
+      }
+    </style>
   </head>
   <body style="background-color: DarkSalmon; ">
-    <center>
-      <style>
-        h1 {
-          background: Salmon;
-          color: black;
-          padding: 2px;
-        }
-        hr {
-          background: Teal;
-          padding: 2px;
-        }
-        div{
-          height: 500px;
-        }
-        strong {
-          font-size: 20px;
-        }
-        em {
-          font-size: 20px;
-        }
-#qq {
-  font-size: 20px;
-  }
-  h2 {
-  font-size: 30px;
-  }
-</style>
-<h1> Персональна сторінка</h1>
-</center>
-<img style="width:100px; height: :150px;position:absolute;"src="12.png"  />
-<div>
-  <center>
+    <div id="content">
+     <img src="12.png" alt="My photo" width="300px"; height="400px"  /></td>
+     <div id ="info">
     <h2> <em> Козар Владимир Вадимович </em> <h2>
         <p>
           Я студент 2 курсу.
-          <br>Навчаюся на спеціальності <b>кібербезпека у Націальному авіаційному університеті.</b>
-          <br> На даному етапі стараюсь здобути навички з таких мов програмування як <b>С++, Python та Java.</b>
-          <br>Доволі довгий період займався <b>пауерліфтінгом.</b>
-          <br>Якщо говорити про власні інтереси,то займався таким спортом як <b>бокс
+          <br>Навчаюся на спеціальності <b>кібербезпека у Націальному авіаційному університеті.</br>
+          <br> На даному етапі стараюсь здобути навички з таких мов програмування як <br>С++, Python та Java.</br>
+          <br>Доволі довгий період займався <b>пауерліфтінгом.</br>
+          <br>Якщо говорити про власні інтереси,то займався таким спортом як <br>бокс
         </p>
-      </center>
+      </div>
     </div>
+    <div id ="section">
+    <div id="text">
+        <br><p><big><strong>Короткі відомості про мене:</strong></big></p>
+
+        <p>Люблю у вільний час займатися спортом.Улюблена страва-борщ.Захоплення-подорожі.</p>
+
+   
+          <p><big><strong>Моє захоплення:</strong></big></p>
+    </div>
+    <div id="imgs">
+
+      <img src="moto.jpg" alt="My photo" width="200px"; height="300px"  />
+    <div class="img">
+      <p>Фото ще одного мого захоплення:</p>
+      <img src="acura.jpg" alt="My photo" width="200px"; height="250px"  />
+    </div>
+    <div class="img">
+      <p>Фото ще одного мого захоплення:</p>
+      <img src="jeep.jpg" alt="My photo" width="250px"; height="200px"  />
+    </div>
+
+    </div>
+  </div>
+
     <hr />
-    <h2 style= "background-color: PaleGreen;" >Skills:</h2>
+    <h2>Skills:</h2>
+    <div id="footer">
     <table>
         <tr>
             <td>English:</td>
@@ -85,5 +108,6 @@
   <li><a href="Влад2.html"><b>Хоббі</b></a>
   <li><a href="Влад3.html"><b>Контакти</b></a>
   </p>
+  </div>
   </body>
 </html>
